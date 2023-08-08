@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def pascal_triangle(n):
     ''' A python script for pascal's triangle'''
+def pascal_triangle(n):
+    ''' A function for pascal's triangle'''
     if n <= 0:
         return []
 
