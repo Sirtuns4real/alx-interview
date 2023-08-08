@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 ''' A python script for pascal's triangle'''
-import pytest
 
 def pascal_triangle(n):
     if n <= 0:
