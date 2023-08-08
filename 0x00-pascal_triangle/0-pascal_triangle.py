@@ -5,7 +5,7 @@ This module def a fnctn for generatn Pascal's Triangle based on given rows.
 """
 
 
-def pascal_triangle(n): 
+def pascal_triangle(n):
     """
     Generate Pascal's Triangle up to a specified number of rows.
 
