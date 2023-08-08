@@ -1,7 +1,27 @@
 #!/usr/bin/python3
-    ''' A python script for pascal's triangle'''
+"""
+Pascal's Triangle Generator
+
+This module defines a function for generating Pascal's Triangle up to a specified number of rows.
+
+"""
+
+import pytest
+
 def pascal_triangle(n):
-    ''' A function for pascal's triangle'''
+    """
+    Generate Pascal's Triangle up to a specified number of rows.
+
+    Parameters:
+        n (int): The number of rows to generate in Pascal's Triangle.
+
+    Returns:
+        list: A list of lists representing Pascal's Triangle up to the nth row.
+
+    Example:
+        >>> pascal_triangle(5)
+        [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
+    """
     if n <= 0:
         return []
 
