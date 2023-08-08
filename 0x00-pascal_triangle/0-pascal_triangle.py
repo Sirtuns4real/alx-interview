@@ -2,11 +2,12 @@
 """
 Pascal's Triangle Generator
 
-This module defines a function for generating Pascal's Triangle up to a specified number of rows.
+This module def a fnctn for generatn Pascal's Triangle based on given rows.
 
 """
 
 def pascal_triangle(n):
+    
     """
     Generate Pascal's Triangle up to a specified number of rows.
 
