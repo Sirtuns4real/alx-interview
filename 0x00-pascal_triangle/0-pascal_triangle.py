@@ -6,8 +6,6 @@ This module defines a function for generating Pascal's Triangle up to a specifie
 
 """
 
-import pytest
-
 def pascal_triangle(n):
     """
     Generate Pascal's Triangle up to a specified number of rows.
